@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>CENTRO MEDICO IKAL</h1>
+    </header>
+    <main>
+        <form id="registro-medicos-form">
+            <h2>REGISTRO DE MEDICOS </h2>
+            <label for="nombre">Nombre:<span> *</span></label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="apellido">Apellido:<span> *</span></label>
+            <input type="text" id="apellido" name="apellido" required>
+            <label for="cedula">Número de Cédula:<span> *</span></label>
+            <input type="text" id="cedula" name="cedula" required>
+            <label for="consultorio">Número de consultorio:<span> *</span></label>
+            <input type="number" id="consultorio" name="consultorio" required>
+            <label for="telefono">Telefono:<span> *</span></label>
+            <input type="tel" id="telefono" name="telefono" required>
+            <label for="correo">Correo de contacto:<span> *</span></label>
+            <input type="email" id="correo" name="correo" required>
+            <label for="especialidad">Especialidad requerida:<span> *</span></label>
+            <select id="especialidad" name="especialidad">
+                <option value="">Seleccione especialidad </option>
+                <option value="Medicina general">Medicina
+                general</option>
+                <option value="Medicina interna">Medicina
+                interna</option>
+                <option value="Medicina preventiva">Medicina
+                preventiva</option>
+                <option value="Dermatología">Dermatología
+                </option>
+               <option value="Cardiologia">Cardiologia</option>
+                <option value="Pediatria">Pediatria</option>
+                <option value="Cirugía ">Cirugía </option>
+                <option value="Psicologia">Psicologia</option>
+                <option value="Psiquiatria">Psiquiatria</option>
+                <option value="nutricion y dietetica">nutricion
+                 y dietetica</option>
+                <option value="Odontología ">Odontología
+                </option>
+                <option value="Farmacología">Farmacología
+                <option
+                value="Bioenergetica">Bioenergetica</option>
+                </option>
+            </select>
+            <input type="submit" value="Enviar">
+        </form>
+        <div class="boton-container">
+            <input type="button" id="botonVolver" value="Volver">
+        </div>
+    </main>
+    <script src="volver.js"></script>
+    <script src="registro-medicos.js"></script>
+  <img src="img/giphy fonendo.gif" alt="fonendo elemento que usa
+    medico para examinar los pulmones" width="100" height="100" />
+   <br
+</body>
+</html>
